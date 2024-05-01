@@ -66,7 +66,7 @@
           display: flex;
           align-items: center;
           justify-content: space-between;
-        
+
           @include responsive-desktop {
             flex-wrap: wrap;
             gap: $gap-4;
@@ -89,7 +89,7 @@
           font-weight: 500;
           color: $color-main;
         }
-        
+
         p {
           font-size: 2rem;
           line-height: 160%;

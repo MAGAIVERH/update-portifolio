@@ -7,7 +7,7 @@
   }
 
   .grid-layout {
-    > div {
+    div {
       background-color: $bg-secondary;
       border: 2px solid $bg-border;
       padding: $gap-3;
@@ -24,7 +24,7 @@
 
       #creator-photo {
         width: 47%;
-        background-image: url("../image/foto-iuricode.svg");
+        background-image: url("../image/IMG_1430.jpg");
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;

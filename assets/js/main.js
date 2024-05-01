@@ -9,45 +9,77 @@ initScrollReveal();
 typeWrite(document.querySelector(".typewriter"));
 
 hoverChangeExperience(
-  ".digitalhouse",
-  `Trabalhei como instrutor conteudista em frontend na
-  Digital House, o trabalho consistia em criar conteúdos para as
-  aulas de especialização frontend. Alguns temas dos conteúdos
-  realizados foram: React, Redux, TypeScript, Testes,
-  GraphQL, Next.js, MUI, React Hook Form e styled-components.`,
-  "Professor conteudista em Frontend",
-  "Digital House",
-  "Nov 2021 - Nov 2022 (1 ano)"
+  ".barbershop",
+  `Desenvolvi o Barber Shop Manager para simplificar o agendamento de serviços em barbearias. Utilizei React.js, Tailwind CSS e TypeScript no frontend e Next.js no backend, com PostgreSQL para o banco de dados.
+
+  Minha Atuação:
+  No frontend, criei uma interface intuitiva e responsiva, garantindo uma experiência fluida para os usuários. No backend, implementei uma aplicação SSR para melhorar o desempenho e integrei um banco de dados para gerenciar clientes e agendamentos.
+  
+  Desafios e Conquistas:
+  Enfrentei desafios diversos, incluindo otimização de desempenho e criação de um sistema de notificações em tempo real. Essas soluções não só melhoraram a comunicação com os clientes, mas também a eficiência operacional das barbearias.
+  
+  Lições Aprendidas:
+  Além do crescimento técnico, aprendi lições valiosas sobre empatia e colaboração. Este projeto reforçou meu compromisso em criar soluções tecnológicas impactantes e acessíveis..`,
+  "Desenvolvimento Full Stack",
+  "Barber Shop Manager",
+  "Set/2023 - Jan/2024"
 );
 
 hoverChangeExperience(
-  ".zuplae",
-  `Trabalhei como Social Media e Designer na Zuplae que é um escola
-  de programação, onde teve como foco as criações de conteúdos sobre
-  programação para a comunidade dev através das redes sociais.`,
-  "Social Media e UI Designer",
-  "Zuplae",
-  "Jan 2022 - Abril 2022 (4 meses)"
+  ".lojaonline",
+  `O Mobile Shop é uma loja online especializada na venda de produtos eletrônicos, com foco na experiência mobile. Utilizando tecnologias modernas e eficientes, buscamos proporcionar aos nossos clientes uma experiência de compra simples, intuitiva e segura, diretamente de seus dispositivos móveis.
+  
+  Tecnologias Utilizadas:
+React: Utilizamos a biblioteca React para criar uma interface de usuário interativa e responsiva.
+Next.js 13: Aproveitamos os recursos avançados do Next.js, incluindo SSR e SSG, para oferecer uma experiência de navegação rápida e fluida.
+Next Auth: Implementamos autenticação de usuários com OAuth, oferecendo aos clientes uma maneira fácil e segura de fazer login.
+Postgres e Prisma: Utilizamos o banco de dados relacional Postgres juntamente com o Prisma como ORM para armazenar e gerenciar dados de forma eficiente.
+shadcn/ui e Tailwind CSS: Para a estilização da interface, contamos com a biblioteca de componentes reutilizáveis shadcn/ui e o framework Tailwind CSS.
+API do Stripe: Integramos a API do Stripe para processar pagamentos online de forma segura e confiável.
+
+Funcionalidades:
+Login com o Google: Oferecemos aos usuários a opção de fazer login usando suas contas do Google para uma experiência de autenticação simplificada.
+Navegação por Categorias: Os clientes podem explorar nossa ampla seleção de produtos por categorias, facilitando a busca e a compra.
+Descontos em Produtos: Disponibilizamos descontos especiais em alguns produtos, permitindo que os clientes economizem em suas compras.
+Gerenciamento do Carrinho de Compras: Os usuários podem adicionar produtos ao carrinho, remover itens e ajustar a quantidade conforme necessário, garantindo uma experiência de compra personalizada.
+Pagamento Seguro com o Stripe: Oferecemos um processo de pagamento online seguro e confiável com a integração da API do Stripe, permitindo que os clientes concluam seus pedidos com facilidade e tranquilidade.
+
+Além do crescimento técnico, este projeto me ensinou sobre empatia e colaboração. Reforcei meu compromisso em criar soluções tecnológicas impactantes e acessíveis, focadas nas necessidades dos usuários e no trabalho em equipe.
+`,
+  "Desenvolvimento Full Stack",
+  "Mobile Shop - Simplificando a Experiência de Compras",
+  "Abril/2024 - Abril/2024"
 );
 
 hoverChangeExperience(
-  ".codigofontetv",
-  `Trabalhei como Social Media e Designer no Código Fonte TV, 
-  onde teve como foco as criações de conteúdos sobre programação 
-  para a comunidade dev através das redes sociais.`,
-  "Social Media e Designer",
-  "Código Fonte TV",
-  "Jun 2021 - Jan 2022 (8 meses)"
+  ".fullstackweek-store",
+  `Como frontend em um projeto open source, desempenho um papel crucial na construção de uma aplicação completa e funcional. Minha responsabilidade abrange desde a criação de interfaces de usuário envolventes até a implementação de recursos interativos e responsivos em toda a aplicação.
+
+  Utilizando tecnologias como React.js, Tailwind CSS e TypeScript, trabalho na criação e manutenção de componentes modulares e reutilizáveis, garantindo uma arquitetura sólida e escalável. Isso inclui a elaboração de layouts coesos, a estilização consistente e a integração de funcionalidades dinâmicas para uma experiência de usuário aprimorada.
+  
+  Além disso, como parte de um projeto open source, colaboro ativamente com outros desenvolvedores e contribuidores. Participar de discussões, revisar código e propor melhorias são aspectos essenciais do meu envolvimento no projeto. Essa colaboração promove um ambiente de aprendizado e crescimento contínuos, onde compartilhamos conhecimentos e experiências para alcançar nossos objetivos comuns.
+  
+  Nossa missão é desenvolver uma aplicação robusta e acessível, que atenda às necessidades dos usuários e promova a adoção e contribuição da comunidade open source. Estou entusiasmado em fazer parte deste projeto e em contribuir para o avanço da tecnologia de código aberto.`,
+  "Desenvolvimento Front End",
+  "Atuação como Frontend em um Projeto Open Source",
+  "Mar/2024 - Em Andamento"
 );
 
 hoverChangeExperience(
-  ".contweb",
-  `Realizei o estágio na ContWeb, uma empresa de contabilidade. 
-  Onde pela primeira vez tive experiência com o React. Além do
-  desenvolvimento frontend criei os designs da nova plataforma da empresa.`,
-  "Developer frontend e UI Designer",
-  "ContWeb",
-  "Set 2021 - Nov 2021 (3 meses)"
+  ".cloneyoutube",
+  `Decidi construir um clone do YouTube usando TypeScript, CSS e styled-components. Meu objetivo era recriar a interface familiar do site para uma experiência de usuário semelhante à original.
+
+  Tecnologias Utilizadas:
+  TypeScript: Escolhi TypeScript pela sua tipagem estática, garantindo código mais robusto.
+  CSS e styled-components: Utilizei CSS e styled-components para estilizar componentes de forma eficiente e modular.
+  Desafios e Aprendizados:
+  
+  Enfrentei desafios ao replicar a complexidade da interface do YouTube, principalmente na área de vídeos e comentários. Aprendi a importância da organização do código e da abstração de componentes para facilitar a manutenção.
+  
+  Construir o clone do YouTube foi gratificante, aprimorando minhas habilidades em desenvolvimento web. Estou animado para aplicar esses conhecimentos em projetos futuros.`,
+  "Desenvolvimento Front End",
+  "Construindo um Clone do YouTube com TypeScript e Styled-components",
+  "Out/2023 - Out/2023"
 );
 
 hoverChangeDescription(

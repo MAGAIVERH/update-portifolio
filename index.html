@@ -2,25 +2,28 @@
 <html lang="pt-br">
   <head>
     <meta charset="UTF-8" />
-    <meta name="author" content="Iuri Silva" />
+    <meta name="author" content="Magaiver Magalhães" />
     <meta
       name="description"
-      content="Meu nome é Iuri, desenvolvo interfaces modernas e de alta qualidade, concentrado em performance, animações, responsividade e SEO."
+      content="Meu nome é Magaiver, desenvolvo interfaces modernas e de alta qualidade, concentrado em performance, animações, responsividade e SEO."
     />
     <meta
       name="keywords"
-      content="sites, web, desenvolvimento, frontend, iuri silva, ui designer, programador, iuricode, front-end, designer, ui, iuri, freelancer, freela, website, portfólio"
+      content="sites, web, desenvolvimento, frontend, Magaiver Magalhaes, ui designer, programador, iuricode, front-end, designer, ui, iuri, freelancer, freela, website, portfólio, developer, programer"
     />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="theme-color" content="#986DFF" />
-    <meta name="copyright" content="Iuri Silva 2021" />
+    <meta name="copyright" content="Magaiver Magalhães 2024" />
     <meta http-equiv="content-language" content="pt-br" />
-    <meta
+    <!-- seu comentário aqui 
+      Experiência de compartilhamento:colocar meu link aqui com uma imagem bonita
+      <meta
       property="og:image"
-      content="https://iuricode.com/assets/image/preview.png"
-    />
-    <meta property="og:title" content="Portfólio // Iuri Silva" />
-    <meta property="og:description" content="Portfólio // Iuri Silva" />
+      content="https://iuricode.com/assets/image/preview.png"/>
+  -->
+
+    <meta property="og:title" content="Portfólio // Magaiver" />
+    <meta property="og:description" content="Portfólio // Magaiver" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -28,6 +31,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/styleextra.css" />
     <link
       rel="shortcut icon"
       href="assets/image/logo-page.svg"
@@ -35,30 +39,41 @@
     />
     <link rel="icon" href="assets/image/logo-page.svg" />
     <link rel="apple-touch-icon" href="assets/image/logo-page.svg" />
-    <link rel="canonical" href="https://iuricode.com/" />
+    <!--  
+      substituir pelo meu site quando ele estiver pronto
+      <link rel="canonical" href="https://iuricode.com/" /> 
+     -->
+
     <script src="assets/js/svg-inject.min.js"></script>
-    <title>Portfólio // Iuri Silva</title>
+    <title>Portfólio // Magaiver Magalhães</title>
   </head>
 
   <body>
     <header>
       <div class="grid-layout">
         <nav>
-          <img
-            src="assets/image/logo-iuricode.svg"
-            alt="iuricode"
-            width="150px"
-            height="25px"
-          />
+          <img src="assets/image/logo-magaiver.svg" alt="Carlos Dev" />
           <div class="mobile-menu">
             <div class="line1"></div>
             <div class="line2"></div>
             <div class="line3"></div>
           </div>
           <ul class="nav-list">
-            <li><a href="https://iuricode-blog.vercel.app/" rel="noopener" target="_blank">Blog</a></li>
-            <li><a href="https://iuricode-blog.vercel.app/setup" rel="noopener" target="_blank">Setup</a></li>
-            <li><a href="https://iuricode.com/efront/" rel="noopener" target="_blank">eBook</a></li>
+            <li>
+              <a href="#s-home" rel="noopener">Inicio</a>
+            </li>
+            <li>
+              <a href="#s-about" rel="noopener">Sobre</a>
+            </li>
+            <li>
+              <a href="#s-projects" rel="noopener">Projetos</a>
+            </li>
+            <li>
+              <a href="#s-services" rel="noopener">Serviços</a>
+            </li>
+            <li>
+              <a href="#s-skills" rel="noopener">Conhecimento</a>
+            </li>
           </ul>
         </nav>
       </div>
@@ -79,19 +94,16 @@
                 profissional que vão destacar seu produto no mercado.
               </p>
 
-              <a
-                href="https://iuricode.com/efront/"
-                rel="noopener"
-                target="_blank"
-                class="delayExtraBigReveal"
-              >
-                Aprenda frontend comigo
-              </a>
+              <svg class="arrows">
+                <path class="a1" d="M0 0 L30 32 L60 0"></path>
+                <path class="a2" d="M0 20 L30 52 L60 20"></path>
+                <path class="a3" d="M0 40 L30 72 L60 40"></path>
+              </svg>
             </div>
 
             <img
               src="assets/image/logo.svg"
-              alt="ìcone iuricode"
+              alt="ìcone Carlos"
               onload="SVGInject(this)"
               id="logo"
               width="500px"
@@ -105,26 +117,29 @@
         <div class="grid-layout">
           <div>
             <div id="creator-photo" class="delayMediumReveal">
-              <h3 class="delayExtraBigReveal">Criador do eFront</h3>
+              <h3 class="delayExtraBigReveal">Front-End</h3>
             </div>
             <div>
               <h4 class="delayMediumReveal">Quem sou</h4>
-              <h2 class="delaySmallReveal">Iuri Silva</h2>
+              <h2 class="delaySmallReveal">Carlos Magaiver</h2>
               <h3 class="delayMediumReveal">
-                Frontend Developer & UI Designer
+                Desenvolvedor Full-Stack com Foco em Desenvolvimento Front-End.
               </h3>
 
               <p class="delayLargeReveal">
-                Meu nome é Iuri Silva, ou “iuricode” (é como me chamam agora)
-                sou o criador do eFront, um material de ensino de frontend pela
-                internet. Atualmente sou freelancer como Frontend Developer e UI
-                Designer. Desenvolvo interfaces modernas e de alta qualidade,
-                concentrado em performance, animações, responsividade e SEO.
+                Meu nome é Carlos Magaiver,sou desenvolvedor Full Stack
+                apaixonado por criar experiências incríveis na web. Com 2 anos
+                de experiência na área, meu foco principal é Front-end, onde me
+                destaquei no uso das linguagens JavaScript e TypeScript, além de
+                tecnologias como React, Next.js e Node.js.. Atualmente sou
+                freelancer como Frontend Developer e UI Designer. Desenvolvo
+                interfaces modernas e de alta qualidade, concentrado em
+                performance, animações, responsividade e SEO.
               </p>
               <nav class="delayLargeReveal">
                 <ul>
                   <a
-                    href="https://www.instagram.com/iuricode/"
+                    href="https://www.instagram.com/magaiver_fullstack/"
                     rel="noopener"
                     target="_blank"
                     ><li>
@@ -136,7 +151,7 @@
                   ></a>
 
                   <a
-                    href="https://www.linkedin.com/in/iuricode/"
+                    href="https://www.linkedin.com/in/magaiver-magalhaes-bb9572234/"
                     rel="noopener"
                     target="_blank"
                     ><li>
@@ -149,7 +164,7 @@
                   ></a>
 
                   <a
-                    href="https://iuricode-blog.vercel.app/"
+                    href="https://vercel.com/magaiver"
                     rel="noopener"
                     target="_blank"
                     ><li>
@@ -161,7 +176,7 @@
                   ></a>
 
                   <a
-                    href="https://discord.gg/uHWE7QbXnp"
+                    href="https://discord.gg/B2hBZ3F3"
                     rel="noopener"
                     target="_blank"
                     ><li>
@@ -173,7 +188,7 @@
                   ></a>
 
                   <a
-                    href="https://github.com/iuricode"
+                    href="https://github.com/MAGAIVERH"
                     rel="noopener"
                     target="_blank"
                     ><li>
@@ -185,12 +200,12 @@
                   ></a>
 
                   <a
-                    href="https://www.behance.net/iuricode"
+                    href="https://api.whatsapp.com/send?phone=5585091467094&text=Olá,%20gostaria%20de%20fazer%20um%20agendamento."
                     rel="noopener"
                     target="_blank"
                     ><li>
                       <img
-                        src="./assets/icons/behance.svg"
+                        src="./assets/icons/whatsapp-_1_.svg"
                         alt="Ícone do Behance"
                         onload="SVGInject(this)"
                       /></li
@@ -210,37 +225,122 @@
               class="option-experience intervalCardReveal"
               id="experience-company"
             >
-              <div class="company digitalhouse activeExperience">
-                <h3>Digital House</h3>
+              <div class="company fullstackweek-store">
+                <h3>Projeto Open Source</h3>
               </div>
-              <div class="company zuplae">
-                <h3>Zuplae</h3>
+
+              <div class="company lojaonline">
+                <h3>Loja Online</h3>
               </div>
-              <div class="company contweb">
-                <h3>ContWeb</h3>
+
+              <div class="company barbershop activeExperience">
+                <h3>BarberShop</h3>
               </div>
-              <div class="company codigofontetv">
-                <h3>Código Fonte TV</h3>
+              <div class="company cloneyoutube">
+                <h3>Clone Youtube</h3>
               </div>
             </div>
             <div class="text-experience intervalCardReveal">
               <div>
-                <h4 class="titleExperience">
-                  Professor conteudista em Frontend
-                </h4>
-                <p class="dateExperience">Nov 2021 - Nov 2022 (1 ano)</p>
+                <h4 class="titleExperience">Desenvolvimento Full Stack</h4>
+                <p class="dateExperience">Set/2023 - Jan/2024</p>
               </div>
-              <h5 class="companyExperience">Digital House</h5>
+              <h5 class="companyExperience">Barber Shop Manager</h5>
               <p class="changeExperience">
-                Trabalhei como instrutor conteudista em frontend na Digital
-                House, o trabalho consistia em criar conteúdos para as aulas de
-                especialização frontend. Alguns temas dos conteúdos realizados
-                foram: React, Redux, TypeScript, Testes, GraphQL, Next.js, MUI,
-                React Hook Form e styled-components.
+                Desenvolvi o Barber Shop Manager para simplificar o agendamento
+                de serviços em barbearias. Utilizei React.js, Tailwind CSS e
+                TypeScript no frontend e Next.js no backend, com PostgreSQL para
+                o banco de dados. Minha Atuação: No frontend, criei uma
+                interface intuitiva e responsiva, garantindo uma experiência
+                fluida para os usuários. No backend, implementei uma aplicação
+                SSR para melhorar o desempenho e integrei um banco de dados para
+                gerenciar clientes e agendamentos. Desafios e Conquistas:
+                Enfrentei desafios diversos, incluindo otimização de desempenho
+                e criação de um sistema de notificações em tempo real. Essas
+                soluções não só melhoraram a comunicação com os clientes, mas
+                também a eficiência operacional das barbearias. Lições
+                Aprendidas: Além do crescimento técnico, aprendi lições valiosas
+                sobre empatia e colaboração. Este projeto reforçou meu
+                compromisso em criar soluções tecnológicas impactantes e
+                acessíveis.
               </p>
             </div>
           </div>
         </div>
+
+        <!--INICIO Botões de download -->
+        <div
+          class="download-buttons"
+          style="
+            margin-top: 60px;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+          "
+        >
+          <h3
+            style="
+              font-size: 18px;
+              color: #fff;
+              text-transform: uppercase;
+              margin-bottom: 10px;
+            "
+          >
+            Currículo
+          </h3>
+          <a href="/assets/file/Resume-magaiver-portugues.pdf" download>
+            <button
+              class="download-button"
+              style="
+                height: 29px;
+                margin-top: 20px;
+                background-color: #151515;
+                color: #986dff;
+                border: 2px solid #1f1f1f;
+                border-radius: 5px;
+                margin-right: 10px;
+              "
+              onmouseover="this.style.borderColor='#986dff'; this.style.backgroundColor='#986dff';"
+              onmouseout="this.style.borderColor='#1f1f1f'; this.style.backgroundColor='#151515';"
+            >
+              <span
+                style="
+                  background-color: #151515;
+                  color: #986dff;
+                  border-radius: 5px;
+                  padding: 5px 10px;
+                "
+                >Baixar Português</span
+              >
+            </button>
+          </a>
+          <a href="/assets/file/Resume-magaiver-English.pdf" download>
+            <button
+              class="download-button"
+              style="
+                height: 29px;
+                background-color: #151515;
+                color: #986dff;
+                border: 2px solid #1f1f1f;
+                border-radius: 5px;
+                margin-right: 10px;
+              "
+              onmouseover="this.style.borderColor='#986dff'; this.style.backgroundColor='#986dff';"
+              onmouseout="this.style.borderColor='#1f1f1f'; this.style.backgroundColor='#151515';"
+            >
+              <span
+                style="
+                  background-color: #151515;
+                  color: #986dff;
+                  border-radius: 5px;
+                  padding: 5px 10px;
+                "
+                >Download English</span
+              >
+            </button>
+          </a>
+        </div>
+        <!-- FIM Botões de download -->
       </section>
 
       <section id="s-projects">
@@ -248,14 +348,11 @@
           <h2 class="delaySmallReveal">Projetos <span>.</span></h2>
           <div id="projects">
             <article class="intervalCardReveal teslabank">
-              <h3>TeslaBank</h3>
-              <p>
-                Site institucional de banco digital, feito em HTML, Sass e
-                JavaScript.
-              </p>
+              <h3>Loja Online</h3>
+              <p>Site e-commerce, feito em React,Typescript...</p>
 
               <a
-                href="https://iuricode.com/teslabank/"
+                href="https://loja-online-next.vercel.app/"
                 rel="noopener"
                 target="_blank"
                 id="teslabank"
@@ -264,14 +361,13 @@
             </article>
 
             <article class="intervalCardReveal naped">
-              <h3>Naped</h3>
+              <h3>Barber Shop</h3>
               <p>
-                Site de notícias nerd, feito em Next.js, TypeScript e
-                styled-components.
+                Site para Barbearias, feito em Next.js, TypeScript, Tailwind...
               </p>
 
               <a
-                href="https://efront-naped.vercel.app/"
+                href="https://barbershop-my-project.vercel.app/"
                 rel="noopener"
                 target="_blank"
                 id="naped"
@@ -280,12 +376,10 @@
             </article>
 
             <article class="intervalCardReveal efront">
-              <h3>eFront</h3>
-              <p>
-                Página de vendas do eFront, feito em HTML, Sass e JavaScript.
-              </p>
+              <h3>Finance App</h3>
+              <p>Backend desenvolvido com Node.js, Express e PostgreSQL</p>
               <a
-                href="https://iuricode.com/efront"
+                href="https://github.com/MAGAIVERH/finance-app"
                 rel="noopener"
                 target="_blank"
                 id="efront"
@@ -294,10 +388,10 @@
             </article>
 
             <article class="intervalCardReveal steam">
-              <h3>Steam</h3>
-              <p>Redesign da Steam, feito em HTML, Sass e JavaScript.</p>
+              <h3>Projeto Open Source</h3>
+              <p>Contribuindo com react,typescritp,tailwind, shadcn...</p>
               <a
-                href="https://efront-steam.vercel.app/"
+                href="https://github.com/MAGAIVERH/fullstackweek-store"
                 rel="noopener"
                 target="_blank"
                 id="steam"
@@ -320,11 +414,11 @@
             </article>
           </div>
           <a
-            href="https://github.com/iuricode?tab=repositories"
+            href="https://github.com/MAGAIVERH"
             rel="noopener"
             target="_blank"
             class="delayExtraBigReveal"
-            >Repositórios no GitHub</a
+            >GitHub</a
           >
         </div>
       </section>
@@ -503,13 +597,14 @@
       <footer>
         <div class="grid-layout">
           <p>
-            Copyright © 2021
+            Copyright © 2024
             <a href="https://iuricode.com" rel="noopener" target="_blank">
-              iuricode.com.
+              Developed by Magaiver Magalhães
             </a>
             Todos os direitos reservados.
           </p>
 
+          <!-- começo 
           <div>
             <p>Powered by</p>
             <img
@@ -517,11 +612,13 @@
               alt="Logo iuricode"
             />
           </div>
+           fim  -->
         </div>
       </footer>
     </main>
 
     <script src="https://unpkg.com/scrollreveal@4.0.9/dist/scrollreveal.min.js"></script>
     <script type="module" src="assets/js/main.js"></script>
+    <script src="scrolltopage.js"></script>
   </body>
 </html>
