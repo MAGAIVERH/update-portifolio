@@ -1,10 +1,10 @@
 <h1 align="center">
-  💻<br>Portfólio - Iuri Silva
+  💻<br>Portfólio - Carlos Magaiver
 </h1>
 
-![Resultado final do projeto](assets/image/preview.png)
+![Resultado final do projeto](assets/image/tela-preview.png)
 
-<h4 align="center"><a href="https://www.iuricode.com/">Clique para visitar o projeto</a></h4>
+<h4 align="center"><a href="https://my-portifolio-three-navy.vercel.app/#s-home">Clique para visitar o projeto</a></h4>
 
 ## 📚 Seções
 
@@ -36,10 +36,10 @@ Para o desenvolvimento deste site utilizei as seguintes tecnologias:
 <table>
   <tr>
     <td align="center">
-      <a href="https://github.com/iuricode">
-        <img src="https://avatars3.githubusercontent.com/u/31936044" width="100px;" alt="Foto do Iuri Silva no GitHub"/><br>
+      <a href="https://github.com/MAGAIVERH">
+        <img src="./assets/image/IMG_1430.jpg" width="100px;" alt="Foto do Carlos Magaiver no GitHub"/><br>
         <sub>
-          <b>Iuri Silva</b>
+          <b>Carlos Magaiver</b>
         </sub>
       </a>
     </td>
