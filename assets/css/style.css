@@ -85,7 +85,8 @@ header .grid-layout nav {
   padding: 0px 8px;
 }
 header .grid-layout nav img {
-  width: 150px;
+  width: 130px;
+  padding: 0px 8px 10px 8px;
 }
 header .grid-layout nav .nav-list {
   list-style: none;
