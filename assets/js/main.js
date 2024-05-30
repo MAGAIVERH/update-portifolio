@@ -52,17 +52,19 @@ Além do crescimento técnico, este projeto me ensinou sobre empatia e colabora�
 );
 
 hoverChangeExperience(
-  ".fullstackweek-store",
-  `Como frontend em um projeto open source, desempenho um papel crucial na construção de uma aplicação completa e funcional. Minha responsabilidade abrange desde a criação de interfaces de usuário envolventes até a implementação de recursos interativos e responsivos em toda a aplicação.
+  ".mmtech-foods",
+  `Como desenvolvedor frontend em um projeto semelhante ao iFood, desempenhei um papel fundamental na construção de uma aplicação completa e funcional. Minhas responsabilidades abrangeram desde a criação de interfaces de usuário envolventes até a implementação de recursos interativos e responsivos em toda a aplicação. Utilizando tecnologias como Next.js, React, TypeScript e Tailwind CSS, trabalhei na criação e manutenção de componentes modulares e reutilizáveis, garantindo uma arquitetura sólida e escalável. Isso incluiu a elaboração de layouts coesos, a estilização consistente e a integração de funcionalidades dinâmicas para proporcionar uma experiência de usuário aprimorada.
 
-  Utilizando tecnologias como React.js, Tailwind CSS e TypeScript, trabalho na criação e manutenção de componentes modulares e reutilizáveis, garantindo uma arquitetura sólida e escalável. Isso inclui a elaboração de layouts coesos, a estilização consistente e a integração de funcionalidades dinâmicas para uma experiência de usuário aprimorada.
+  Para a camada de dados, utilizei Prisma como ORM e configurei o banco de dados no Neon, assegurando uma interação eficiente e segura com a base de dados. A combinação dessas tecnologias permitiu a construção de uma aplicação moderna e robusta, com uma experiência de usuário fluida e eficiente.
   
-  Além disso, como parte de um projeto open source, colaboro ativamente com outros desenvolvedores e contribuidores. Participar de discussões, revisar código e propor melhorias são aspectos essenciais do meu envolvimento no projeto. Essa colaboração promove um ambiente de aprendizado e crescimento contínuos, onde compartilhamos conhecimentos e experiências para alcançar nossos objetivos comuns.
+  Além disso, utilizei a biblioteca ShadCN para melhorar a qualidade e a consistência dos componentes visuais, garantindo que a interface do usuário não só fosse funcional, mas também visualmente atraente. Essa abordagem ajudou a assegurar que a aplicação tivesse um design harmonioso e uma usabilidade superior.
   
-  Nossa missão é desenvolver uma aplicação robusta e acessível, que atenda às necessidades dos usuários e promova a adoção e contribuição da comunidade open source. Estou entusiasmado em fazer parte deste projeto e em contribuir para o avanço da tecnologia de código aberto.`,
+  Minha contribuição não se limitou ao desenvolvimento técnico. Colaborei ativamente com outros membros da equipe, participando de discussões, revisando código e propondo melhorias contínuas. Esse ambiente colaborativo promoveu um aprendizado contínuo e um crescimento conjunto, onde compartilhamos conhecimentos e experiências para alcançar nossos objetivos comuns.
+  
+  A missão deste projeto foi desenvolver uma aplicação robusta e acessível, que atendesse às necessidades dos usuários, facilitando a navegação e a interação com os serviços oferecidos. Estou entusiasmado em ter feito parte deste projeto e em ter contribuído para a criação de uma solução tecnológica inovadora que facilita o dia a dia dos usuários e promove a eficiência na entrega de serviços de alimentação.`,
   "Desenvolvimento Front End",
-  "Atuação como Frontend em um Projeto Open Source",
-  "Mar/2024 - Em Andamento"
+  "Atuação como Frontend em um projeto semelhante ao iFood",
+  "Maio/2024 - Maio/2024"
 );
 
 hoverChangeExperience(
