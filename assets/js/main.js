@@ -9,126 +9,163 @@ initScrollReveal();
 typeWrite(document.querySelector(".typewriter"));
 
 hoverChangeExperience(
-  ".barbershop",
-  `Desenvolvi o Barber Shop Manager para simplificar o agendamento de serviços em barbearias. Utilizei React.js, Tailwind CSS e TypeScript no frontend e Next.js no backend, com PostgreSQL para o banco de dados.
+  ".tattoshop",
+  `Perfect Tatto is an innovative platform that connects talented 
+   tattoo artists with clients seeking personalized art for their skin. 
+   Developed with Next.js 14, React 18, and TailwindCSS on the frontend, 
+   and Next.js API Routes and Prisma ORM on the backend, the application 
+   uses Neon as a serverless PostgreSQL database and NextAuth.js for authentication.
 
-  Minha Atuação:
-  No frontend, criei uma interface intuitiva e responsiva, garantindo uma experiência fluida para os usuários. No backend, implementei uma aplicação SSR para melhorar o desempenho e integrei um banco de dados para gerenciar clientes e agendamentos.
-  
-  Desafios e Conquistas:
-  Enfrentei desafios diversos, incluindo otimização de desempenho e criação de um sistema de notificações em tempo real. Essas soluções não só melhoraram a comunicação com os clientes, mas também a eficiência operacional das barbearias.
-  
-  Lições Aprendidas:
-  Além do crescimento técnico, aprendi lições valiosas sobre empatia e colaboração. Este projeto reforçou meu compromisso em criar soluções tecnológicas impactantes e acessíveis..`,
-  "Desenvolvimento Full Stack",
-  "Barber Shop Manager",
-  "Set/2023 - Jan/2024"
+Key Features:
+
+Modern Interface: Utilizes Shadcn UI for a visually appealing and accessible experience.
+Functionality: Smart artist search, simplified scheduling, portfolio gallery, and appointment management.
+Performance and Scalability: Serverless database for high performance and scalability.
+Project Highlights:
+
+Implementation of modern architecture and advanced development practices.
+Use of TypeScript for type safety and tools like ESLint, Prettier, and Husky to maintain code quality.
+Try It Out: Log in and test our scheduling feature to see how easy it is to find the ideal artist and book your next tattoo session.`,
+  "Full Stack Development",
+  "Mobile Tatto Shop ",
+  "Set/2024 - Set/2024"
 );
 
 hoverChangeExperience(
   ".lojaonline",
-  `O Mobile Shop é uma loja online especializada na venda de produtos eletrônicos, com foco na experiência mobile. Utilizando tecnologias modernas e eficientes, buscamos proporcionar aos nossos clientes uma experiência de compra simples, intuitiva e segura, diretamente de seus dispositivos móveis.
-  
-  Tecnologias Utilizadas:
-React: Utilizamos a biblioteca React para criar uma interface de usuário interativa e responsiva.
-Next.js 13: Aproveitamos os recursos avançados do Next.js, incluindo SSR e SSG, para oferecer uma experiência de navegação rápida e fluida.
-Next Auth: Implementamos autenticação de usuários com OAuth, oferecendo aos clientes uma maneira fácil e segura de fazer login.
-Postgres e Prisma: Utilizamos o banco de dados relacional Postgres juntamente com o Prisma como ORM para armazenar e gerenciar dados de forma eficiente.
-shadcn/ui e Tailwind CSS: Para a estilização da interface, contamos com a biblioteca de componentes reutilizáveis shadcn/ui e o framework Tailwind CSS.
-API do Stripe: Integramos a API do Stripe para processar pagamentos online de forma segura e confiável.
+  `Mobile Shop is an online store specializing in electronic products, with a focus on mobile experience.
+   Utilizing modern and efficient technologies, we aim to provide our customers with a simple, intuitive, 
+   and secure shopping experience directly from their mobile devices.
 
-Funcionalidades:
-Login com o Google: Oferecemos aos usuários a opção de fazer login usando suas contas do Google para uma experiência de autenticação simplificada.
-Navegação por Categorias: Os clientes podem explorar nossa ampla seleção de produtos por categorias, facilitando a busca e a compra.
-Descontos em Produtos: Disponibilizamos descontos especiais em alguns produtos, permitindo que os clientes economizem em suas compras.
-Gerenciamento do Carrinho de Compras: Os usuários podem adicionar produtos ao carrinho, remover itens e ajustar a quantidade conforme necessário, garantindo uma experiência de compra personalizada.
-Pagamento Seguro com o Stripe: Oferecemos um processo de pagamento online seguro e confiável com a integração da API do Stripe, permitindo que os clientes concluam seus pedidos com facilidade e tranquilidade.
+Technologies Used:
 
-Além do crescimento técnico, este projeto me ensinou sobre empatia e colaboração. Reforcei meu compromisso em criar soluções tecnológicas impactantes e acessíveis, focadas nas necessidades dos usuários e no trabalho em equipe.
-`,
-  "Desenvolvimento Full Stack",
-  "Mobile Shop - Simplificando a Experiência de Compras",
+React: We use the React library to create an interactive and responsive user interface.
+Next.js 13: We leverage advanced features of Next.js, including SSR and SSG, to deliver a 
+fast and smooth browsing experience.
+Next Auth: We implemented user authentication with OAuth, offering customers an easy and secure way to log in.
+Postgres and Prisma: We use the relational database Postgres along with Prisma as an ORM 
+to efficiently store and manage data.
+shadcn/ui and Tailwind CSS: For styling the interface, we use the reusable component library 
+shadcn/ui and the Tailwind CSS framework.
+Stripe API: We integrated the Stripe API to process online payments securely and reliably.
+Features:
+
+Google Login: We offer users the option to log in using their Google accounts for a simplified 
+authentication experience.
+Category Navigation: Customers can explore our wide selection of products by categories, making it
+ easier to search and purchase.
+Product Discounts: We provide special discounts on certain products, allowing customers to save on their purchases.
+Shopping Cart Management: Users can add products to their cart, remove items, and adjust quantities 
+as needed, ensuring a personalized shopping experience.
+Secure Payment with Stripe: We offer a secure and reliable online payment process with Stripe API 
+integration, allowing customers to complete their orders with ease and peace of mind.
+In addition to technical growth, this project taught me about empathy and collaboration. It reinforced my
+ commitment to creating impactful and accessible technological solutions, focused on user needs and teamwork.`,
+  "Full Stack Development",
+  "Mobile Shop - Streamlining the shopping experience",
   "Abril/2024 - Abril/2024"
 );
 
 hoverChangeExperience(
   ".mmtech-foods",
-  `Como desenvolvedor frontend em um projeto semelhante ao iFood, desempenhei um papel fundamental na construção de uma aplicação completa e funcional. Minhas responsabilidades abrangeram desde a criação de interfaces de usuário envolventes até a implementação de recursos interativos e responsivos em toda a aplicação. Utilizando tecnologias como Next.js, React, TypeScript e Tailwind CSS, trabalhei na criação e manutenção de componentes modulares e reutilizáveis, garantindo uma arquitetura sólida e escalável. Isso incluiu a elaboração de layouts coesos, a estilização consistente e a integração de funcionalidades dinâmicas para proporcionar uma experiência de usuário aprimorada.
-
-  Para a camada de dados, utilizei Prisma como ORM e configurei o banco de dados no Neon, assegurando uma interação eficiente e segura com a base de dados. A combinação dessas tecnologias permitiu a construção de uma aplicação moderna e robusta, com uma experiência de usuário fluida e eficiente.
-  
-  Além disso, utilizei a biblioteca ShadCN para melhorar a qualidade e a consistência dos componentes visuais, garantindo que a interface do usuário não só fosse funcional, mas também visualmente atraente. Essa abordagem ajudou a assegurar que a aplicação tivesse um design harmonioso e uma usabilidade superior.
-  
-  Minha contribuição não se limitou ao desenvolvimento técnico. Colaborei ativamente com outros membros da equipe, participando de discussões, revisando código e propondo melhorias contínuas. Esse ambiente colaborativo promoveu um aprendizado contínuo e um crescimento conjunto, onde compartilhamos conhecimentos e experiências para alcançar nossos objetivos comuns.
-  
-  A missão deste projeto foi desenvolver uma aplicação robusta e acessível, que atendesse às necessidades dos usuários, facilitando a navegação e a interação com os serviços oferecidos. Estou entusiasmado em ter feito parte deste projeto e em ter contribuído para a criação de uma solução tecnológica inovadora que facilita o dia a dia dos usuários e promove a eficiência na entrega de serviços de alimentação.`,
-  "Desenvolvimento Front End",
-  "Atuação como Frontend em um projeto semelhante ao iFood",
+  `As a front-end developer on a project similar to iFood, 
+    I played a key role in building a complete and functional application. 
+    My responsibilities ranged from creating engaging user interfaces to 
+    implementing interactive and responsive features throughout the application.
+    Using technologies like Next.js, React, TypeScript, and Tailwind CSS, 
+    I worked on creating and maintaining modular and reusable components, 
+    ensuring a solid and scalable architecture. This included designing cohesive 
+    layouts, consistent styling, and integrating dynamic functionalities 
+    to provide an enhanced user experience. For the data layer, I used Prisma 
+    as an ORM and set up the database on Neon, ensuring efficient and secure 
+    interaction with the database. The combination of these technologies allowed 
+    for the development of a modern and robust application with a smooth and 
+    efficient user experience. Additionally, I utilized the ShadCN library 
+    to improve the quality and consistency of visual components, ensuring that 
+    the user interface was not only functional but also visually appealing. 
+    This approach helped ensure that the application had a harmonious design 
+    and superior usability. My contribution extended beyond technical development. 
+    I actively collaborated with other team members, participating in discussions, 
+    reviewing code, and proposing continuous improvements. This collaborative environment
+    fostered ongoing learning and collective growth, where we shared knowledge 
+    and experiences to achieve our common goals. The mission of this project 
+    was to develop a robust and accessible application that met user needs, 
+    facilitating navigation and interaction with the provided services. 
+    I am excited to have been part of this project and to have contributed to creating
+    an innovative technological solution that enhances users' daily lives and promotes
+    efficiency in food service delivery.
+`,
+  "Development Front End",
+  "Role as a Frontend Developer in a project similar to iFood.",
   "Maio/2024 - Maio/2024"
 );
 
 hoverChangeExperience(
   ".cloneyoutube",
-  `Decidi construir um clone do YouTube usando TypeScript, CSS e styled-components. Meu objetivo era recriar a interface familiar do site para uma experiência de usuário semelhante à original.
+  `I decided to build a YouTube clone using TypeScript, CSS, and styled-components. 
+  My goal was to recreate the familiar interface of the site for a user experience similar to the original.
 
-  Tecnologias Utilizadas:
-  TypeScript: Escolhi TypeScript pela sua tipagem estática, garantindo código mais robusto.
-  CSS e styled-components: Utilizei CSS e styled-components para estilizar componentes de forma eficiente e modular.
-  Desafios e Aprendizados:
-  
-  Enfrentei desafios ao replicar a complexidade da interface do YouTube, principalmente na área de vídeos e comentários. Aprendi a importância da organização do código e da abstração de componentes para facilitar a manutenção.
-  
-  Construir o clone do YouTube foi gratificante, aprimorando minhas habilidades em desenvolvimento web. Estou animado para aplicar esses conhecimentos em projetos futuros.`,
-  "Desenvolvimento Front End",
-  "Construindo um Clone do YouTube com TypeScript e Styled-components",
+Technologies Used:
+
+TypeScript: I chose TypeScript for its static typing, ensuring more robust code.
+CSS and styled-components: I used CSS and styled-components to efficiently and modularly style components.
+Challenges and Learnings:
+
+I faced challenges replicating the complexity of YouTube’s interface, particularly in the areas 
+of videos and comments. I learned the importance of code organization and component abstraction 
+to facilitate maintenance.
+Building the YouTube clone was rewarding, enhancing my web development skills. I am excited to apply 
+this knowledge to future projects.`,
+  "Development Front End",
+  "Building a YouTube Clone with TypeScript and Styled-components",
   "Out/2023 - Out/2023"
 );
 
 hoverChangeDescription(
   ".html",
-  "HTML é uma linguagem de marcação, onde marcamos os elementos para definir quais informações a página vai exibir."
+  "HTML is a markup language where we mark elements to define what information the page will display."
 );
 hoverChangeDescription(
   ".css",
-  "CSS é uma linguagem de folha de estilo composta por “camadas”, criado com o propósito de estilizar as páginas."
+  "CSS is a stylesheet language composed of 'layers,' created with the purpose of styling pages."
 );
 hoverChangeDescription(
   ".js",
-  "JavaScript é uma linguagem de programação que permite a você implementar elementos dinâmicos em páginas web."
+  "JavaScript is a programming language that allows you to implement dynamic elements on web pages."
 );
 hoverChangeDescription(
   ".sass",
-  "Sass é um pré-processador CSS que adiciona alguns recursos que não estão disponíveis de forma nativa."
+  "Sass is a CSS preprocessor that adds features not available natively."
 );
 hoverChangeDescription(
   ".react",
-  "React é uma biblioteca JavaScript com foco em criar interfaces de usuário de forma componetizada."
+  "React is a JavaScript library focused on building user interfaces in a component-based manner."
 );
 hoverChangeDescription(
   ".next",
-  "Next.js é uma estrutura da web que permite funcionalidades como renderização do lado do servidor e geração de sites estáticos para web baseados em React."
+  "Next.js is a web framework that enables server-side rendering and static site generation for React-based web applications."
 );
 hoverChangeDescription(
   ".styled",
-  "styled-components é uma biblioteca que utiliza o conceito de CSS-in-JS, ou seja, que nos permite escrever códigos CSS dentro do Javascript."
+  "Styled-components is a library that uses the CSS-in-JS concept, allowing us to write CSS code within JavaScript."
 );
 hoverChangeDescription(
   ".tailwind",
-  "Tailwind CSS é um framework CSS que nos fornece classes utilitárias com o propósito de estilizar as páginas."
+  "Tailwind CSS is a CSS framework that provides utility classes to style pages."
 );
 hoverChangeDescription(
   ".typescript",
-  "TypeScript é um superset do JavaScript que incluir recursos que não estão presentes na linguagem de forma nativa, além de torná-la estática."
+  "TypeScript is a superset of JavaScript that includes features not present in the language natively, and it also adds static typing."
 );
 hoverChangeDescription(
   ".radix",
-  "Radix é uma biblioteca que fornece componentes acessíveis e sem estilos para a criação de aplicação em React."
+  "Radix is a library that provides accessible, unstyled components for building applications in React."
 );
 hoverChangeDescription(
   ".cypress",
-  "Cypress é um framework para automação de testes end-to-end, onde atualmente usa a linguagem JavaScript."
+  "Cypress is a framework for end-to-end test automation, currently using the JavaScript language."
 );
 hoverChangeDescription(
   ".storybook",
-  "Storybook é uma ferramenta que tem como objetivo documentar e testar os componentes da aplicação."
+  "Storybook is a tool designed to document and test application components."
 );
