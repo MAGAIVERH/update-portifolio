@@ -25,7 +25,7 @@ Use of TypeScript for type safety and tools like ESLint, Prettier, and Husky to 
 Try It Out: Log in and test our scheduling feature to see how easy it is to find the ideal artist and book your next tattoo session.`,
   'Full Stack Development',
   'Mobile Tatto Shop ',
-  'Set/2024 - Set/2024',
+  'Mai/2025 - Mai/2025',
 );
 
 hoverChangeExperience(
